@@ -4,6 +4,10 @@ body {
     padding: 0 4%;
 }
 
+p {
+    color: rgb(221, 221, 221);
+}
+
 #pixTitle {
     color: rgb(255, 208, 0);
     text-align: center;
