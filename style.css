@@ -5,22 +5,32 @@ body {
 }
 
 #pixTitle {
-    color: white;
+    color: rgb(255, 208, 0);
     text-align: center;
 }
 
 #mypix {
     font-family: verdana;
-    font-size: 30px;
+    font-size: 24px;
     color: white;
 }     
 
 #pixColor{
     border-radius: 20px;
-}
+}       
 
 #pixbutton{
+    border-radius: 12px;
+    border: 0;
+    background-color: #1f2b39;
+    color: rgb(221, 221, 221);
     font-family: verdana;
-    font-size: 30px;
+    font-size: 24px;
     padding: 10px;
+}
+
+#pixbutton:hover {
+    background-color: #2f465f;
+    /* Green */
+    color: white;
 }
