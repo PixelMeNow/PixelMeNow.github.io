@@ -34,8 +34,16 @@ p {
     background-color: #1f2b39;
     color: rgb(221, 221, 221);
     font-family: verdana;
-    font-size: 24px;
-    padding: 10px;
+    padding: 10px 30px;
+}
+
+#notpixbutton{
+    color: rgb(255, 208, 0);
+    padding: 0;
+        border: none;
+        background: none;
+        font-family: verdana;
+        font-size: 16px;
 }
 
 #pixbutton:hover {

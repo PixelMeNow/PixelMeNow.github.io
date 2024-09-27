@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -17,10 +18,13 @@
 
 
     <img id="pixColor" src="c0.png" style="max-width:100%;height:auto;">
+    
 
-    <p><b>Let's play <a href="https://t.me/notpixel/app?startapp=f5906229966"">Not Pixel</a></b></p>
+<p><b></b>Let's play <input id="notpixbutton" type="button" onclick="location.href='https://t.me/notpixel/app?startapp=f5906229966';" value="Not Pixel" /></b></p>
 
     <script>
+        Telegram.WebApp.expand()
+        window.Telegram.WebApp.disableVerticalSwipes()
         function myFunction() {
             var mylist = [[0, 29, 30], [0, 30, 30], [1, 28, 30], [1, 29, 3], [1, 30, 3], [1, 31, 30], [2, 27, 30], [2, 28, 3], [2, 29, 10], [2, 30, 3], [2, 31, 23], [2, 32, 30], [3, 26, 30],
             [3, 27, 3], [3, 28, 10], [3, 29, 3], [3, 30, 23], [3, 31, 30], [4, 25, 30], [4, 26, 3], [4, 27, 10], [4, 28, 3], [4, 29, 23], [4, 30, 30], [5, 19, 30], [5, 20, 30], [5, 24, 30], [5, 25, 3], [5, 26, 3], [5, 27, 3], [5, 28, 23], [5, 29, 30], [6, 18, 30], [6, 19, 3], [6, 20, 3], [6, 21, 30], [6, 22, 30], [6, 23, 30], [6, 24, 3], [6,
