@@ -39,3 +39,7 @@ body {
     /* Green */
     color: white;
 }
+
+a {
+  color: rgb(255, 208, 0);
+}
